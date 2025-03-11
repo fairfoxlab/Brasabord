@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <restaurant>
     <name>Brasa & Bord</name>
-
+    
     <info>
         <address>Hamngatan 12, 111 47 Stockholm</address>
         <phone>+46 8 123 456 78</phone>
@@ -18,77 +18,50 @@
             <dish>
                 <name>Rödbetscarpaccio</name>
                 <price>125 kr</price>
-                <recommended_wine>
-                    <name>Sauvignon Blanc, Cloudy Bay</name>
-                    <glass_price>115 kr</glass_price>
-                    <bottle_price>650 kr</bottle_price>
-                </recommended_wine>
+                <glass_price>115 kr</glass_price>
             </dish>
             <dish>
                 <name>Salmalax & Pilgrimsmussla Sashimi</name>
                 <price>140 kr</price>
-                <recommended_wine>
-                    <name>Chardonnay, Chablis Premier Cru</name>
-                    <glass_price>130 kr</glass_price>
-                    <bottle_price>800 kr</bottle_price>
-                </recommended_wine>
+                <glass_price>130 kr</glass_price>
             </dish>
             <dish>
                 <name>Toast Skagen</name>
                 <price>135 kr</price>
-                <recommended_wine>
-                    <name>Riesling, Dr. Loosen</name>
-                    <glass_price>110 kr</glass_price>
-                    <bottle_price>550 kr</bottle_price>
-                </recommended_wine>
+                <glass_price>110 kr</glass_price>
             </dish>
         </section>
 
         <section name="Varmrätter">
             <dish>
                 <name>Grillad Entrecôte (200g)</name>
-                <price>359 kr</price>
-                <recommended_wine>
-                    <name>Amarone della Valpolicella, Zenato</name>
-                    <glass_price>150 kr</glass_price>
-                    <bottle_price>950 kr</bottle_price>
-                </recommended_wine>
+                <price>275 kr</price>
+                <glass_price>150 kr</glass_price>
+            </dish>
+            <dish>
+                <name>Torskrygg (170g)</name>
+                <price>255 kr</price>
+                <glass_price>125 kr</glass_price>
             </dish>
             <dish>
                 <name>Högrevsburgare (160g)</name>
                 <price>195 kr</price>
-                <recommended_wine>
-                    <name>Zinfandel, Seghesio Sonoma</name>
-                    <glass_price>120 kr</glass_price>
-                    <bottle_price>680 kr</bottle_price>
-                </recommended_wine>
+                <glass_price>120 kr</glass_price>
             </dish>
             <dish>
                 <name>Halloumiburgare</name>
                 <price>185 kr</price>
-                <recommended_wine>
-                    <name>Grenache, Domaine Lafage</name>
-                    <glass_price>115 kr</glass_price>
-                    <bottle_price>630 kr</bottle_price>
-                </recommended_wine>
+                <glass_price>115 kr</glass_price>
             </dish>
             <dish>
                 <name>Vegansk Risotto</name>
                 <price>195 kr</price>
-                <recommended_wine>
-                    <name>Verdejo, José Pariente</name>
-                    <glass_price>110 kr</glass_price>
-                    <bottle_price>550 kr</bottle_price>
-                </recommended_wine>
+                <glass_price>110 kr</glass_price>
             </dish>
             <dish>
                 <name>Oxfilépasta</name>
                 <price>235 kr</price>
-                <recommended_wine>
-                    <name>Barbera d’Asti, Michele Chiarlo</name>
-                    <glass_price>125 kr</glass_price>
-                    <bottle_price>720 kr</bottle_price>
-                </recommended_wine>
+                <glass_price>125 kr</glass_price>
             </dish>
         </section>
 
@@ -96,29 +69,17 @@
             <dish>
                 <name>Crème Brûlée</name>
                 <price>115 kr</price>
-                <recommended_wine>
-                    <name>Sauternes, Château d’Yquem</name>
-                    <glass_price>140 kr</glass_price>
-                    <bottle_price>1800 kr</bottle_price>
-                </recommended_wine>
+                <glass_price>140 kr</glass_price>
             </dish>
             <dish>
                 <name>Chokladfondant</name>
                 <price>125 kr</price>
-                <recommended_wine>
-                    <name>Portvin, Graham’s 10 Year Tawny</name>
-                    <glass_price>130 kr</glass_price>
-                    <bottle_price>1400 kr</bottle_price>
-                </recommended_wine>
+                <glass_price>130 kr</glass_price>
             </dish>
             <dish>
                 <name>Ostbricka</name>
                 <price>145 kr</price>
-                <recommended_wine>
-                    <name>Vin Jaune, Domaine Berthet-Bondet</name>
-                    <glass_price>135 kr</glass_price>
-                    <bottle_price>1600 kr</bottle_price>
-                </recommended_wine>
+                <glass_price>135 kr</glass_price>
             </dish>
         </section>
     </menu>
@@ -127,13 +88,51 @@
         <section name="Viner">
             <wine>
                 <name>Sauvignon Blanc, Cloudy Bay</name>
-                <glass_price>115 kr</glass_price>
                 <bottle_price>650 kr</bottle_price>
             </wine>
             <wine>
+                <name>Chardonnay, Chablis Premier Cru</name>
+                <bottle_price>800 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Riesling, Dr. Loosen</name>
+                <bottle_price>550 kr</bottle_price>
+            </wine>
+            <wine>
                 <name>Amarone della Valpolicella, Zenato</name>
-                <glass_price>150 kr</glass_price>
                 <bottle_price>950 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Albariño, Mar de Frades</name>
+                <bottle_price>750 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Zinfandel, Seghesio Sonoma</name>
+                <bottle_price>680 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Grenache, Domaine Lafage</name>
+                <bottle_price>630 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Verdejo, José Pariente</name>
+                <bottle_price>550 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Barbera d’Asti, Michele Chiarlo</name>
+                <bottle_price>720 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Sauternes, Château d’Yquem</name>
+                <bottle_price>1800 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Portvin, Graham’s 10 Year Tawny</name>
+                <bottle_price>1400 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Vin Jaune, Domaine Berthet-Bondet</name>
+                <bottle_price>1600 kr</bottle_price>
             </wine>
         </section>
 
