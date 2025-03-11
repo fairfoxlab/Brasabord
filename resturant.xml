@@ -10,7 +10,7 @@
     </info>
 
     <about>
-        <description>Brasa & Bord är en modern bistro med fokus på nordiska råvaror och klassiska smaker med en modern twist. Restaurangen ligger i en charmig stadsdel, gärna nära vatten eller i en historisk byggnad med rustik inredning. Atmosfären är varm och inbjudande med en mix av industriella och trädetaljer, mjuk belysning och öppet kök för en levande matupplevelse. Vår personal är proffsig men avslappnad och har stor kunskap om både mat och vin, vilket bidrar till den genomtänkta helhetsupplevelsen. Oavsett om du kommer för en affärslunch, en middag med vänner eller en romantisk kväll, är vi här för att ge dig den bästa upplevelsen.</description>
+        <description>Brasa & Bord är en modern bistro med fokus på nordiska råvaror och klassiska smaker med en modern twist. Restaurangen ligger i en charmig stadsdel, precis intil vattnet i en historisk byggnad med rustik inredning. Atmosfären är varm och inbjudande med en mix av industriella och trädetaljer, mjuk belysning och öppet kök för en levande matupplevelse. Vår personal är proffsig men avslappnad och har stor kunskap om både mat och vin, vilket bidrar till den genomtänkta helhetsupplevelsen. Oavsett om du kommer för en affärslunch, en middag med vänner eller en romantisk kväll, är vi här för att ge dig den bästa upplevelsen.</description>
     </about>
 
     <menu>
@@ -35,7 +35,7 @@
         <section name="Varmrätter">
             <dish>
                 <name>Grillad Entrecôte (200g)</name>
-                <price>275 kr</price>
+                <price>369 kr</price>
                 <glass_price>150 kr</glass_price>
             </dish>
             <dish>
