@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasa & Bord</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Brasa & Bord</h1>
+    <div class="button-container">
+        <button class="button" onclick="showContent('about')">Om oss</button>
+        <button class="button" onclick="showContent('menu')">Meny</button>
+    </div>
+
+    <div id="about" class="content">
+        <h2>Om oss</h2>
+        <p><strong>Boka bord:</strong> Tel: 08-123 456 78 | Email: kontakt@brasabord.se</p>
+        <p>Brasa & Bord är en modern bistro med fokus på nordiska råvaror och klassiska smaker med en modern twist. Restaurangen ligger i en charmig stadsdel, gärna nära vatten eller i en historisk byggnad med rustik inredning. Atmosfären är varm och inbjudande med en mix av industriella och trädetaljer, mjuk belysning och öppet kök för en levande matupplevelse. Vår personal är proffsig men avslappnad och har stor kunskap om både mat och vin, vilket bidrar till den genomtänkta helhetsupplevelsen. Oavsett om du kommer för en affärslunch, en middag med vänner eller en romantisk kväll, är vi här för att ge dig den bästa upplevelsen.</p>
+    </div>
+
+    <div id="menu" class="content">
+        <h2>Meny</h2>
+        <h3>Förrätter</h3>
+        <p><strong>Rödbetscarpaccio – 125 kr</strong><br>Sauvignon Blanc, Cloudy Bay – 115 kr (glas) / 650 kr (flaska)</p>
+        <p><strong>Salmalax & Pilgrimsmussla Sashimi – 140 kr</strong><br>Chardonnay, Chablis Premier Cru – 130 kr (glas) / 800 kr (flaska)</p>
+        <p><strong>Toast Skagen – 135 kr</strong><br>Riesling, Dr. Loosen – 110 kr (glas) / 550 kr (flaska)</p>
+
+        <h3>Varmrätter</h3>
+        <p><strong>Grillad Entrecôte (200g) – 275 kr</strong><br>Amarone della Valpolicella, Zenato – 150 kr (glas) / 950 kr (flaska)</p>
+        <p><strong>Högrevsburgare (160g) – 195 kr</strong><br>Zinfandel, Seghesio Sonoma – 120 kr (glas) / 680 kr (flaska)</p>
+        <p><strong>Halloumiburgare – 185 kr</strong><br>Grenache, Domaine Lafage – 115 kr (glas) / 630 kr (flaska)</p>
+        <p><strong>Vegansk Risotto – 195 kr</strong><br>Verdejo, José Pariente – 110 kr (glas) / 550 kr (flaska)</p>
+        <p><strong>Oxfilépasta – 235 kr</strong><br>Barbera d’Asti, Michele Chiarlo – 125 kr (glas) / 720 kr (flaska)</p>
+
+        <h3>Efterrätter</h3>
+        <p><strong>Crème Brûlée – 115 kr</strong><br>Sauternes, Château d’Yquem – 140 kr (glas) / 1800 kr (flaska)</p>
+        <p><strong>Chokladfondant – 125 kr</strong><br>Portvin, Graham’s 10 Year Tawny – 130 kr (glas) / 1400 kr (flaska)</p>
+        <p><strong>Ostbricka – 145 kr</strong><br>Vin Jaune, Domaine Berthet-Bondet – 135 kr (glas) / 1600 kr (flaska)</p>
+
+        <h3>Drycker</h3>
+        <p><strong>Viner</strong></p>
+        <p>Sauvignon Blanc, Cloudy Bay – 115 kr (glas) / 650 kr (flaska)</p>
+        <p>Amarone della Valpolicella, Zenato – 150 kr (glas) / 950 kr (flaska)</p>
+        <p><strong>Öl</strong></p>
+        <p>IPA – 89 kr</p>
+        <p>Lager – 89 kr</p>
+    </div>
+
+    <script>
+        function showContent(id) {
+            document.querySelectorAll('.content').forEach(div => div.style.display = 'none');
+            document.getElementById(id).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
