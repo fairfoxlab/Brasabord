@@ -1,57 +1,186 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brasa & Bord</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>Brasa & Bord</h1>
-    <div class="button-container">
-        <button class="button" onclick="showContent('about')">Om oss</button>
-        <button class="button" onclick="showContent('menu')">Meny</button>
-    </div>
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurant>
+    <name>Brasa & Bord</name>
+    
+    <info>
+        <address>Hamngatan 12, 111 47 Stockholm</address>
+        <phone>+46 8 123 456 78</phone>
+        <email>kontakt@brasabord.se</email>
+        <org_number>556123-4567</org_number>
+    </info>
 
-    <div id="about" class="content">
-        <h2>Om oss</h2>
-        <p><strong>Boka bord:</strong> Tel: 08-123 456 78 | Email: kontakt@brasabord.se</p>
-        <p>Brasa & Bord är en modern bistro med fokus på nordiska råvaror och klassiska smaker med en modern twist. Restaurangen ligger i en charmig stadsdel, gärna nära vatten eller i en historisk byggnad med rustik inredning. Atmosfären är varm och inbjudande med en mix av industriella och trädetaljer, mjuk belysning och öppet kök för en levande matupplevelse. Vår personal är proffsig men avslappnad och har stor kunskap om både mat och vin, vilket bidrar till den genomtänkta helhetsupplevelsen. Oavsett om du kommer för en affärslunch, en middag med vänner eller en romantisk kväll, är vi här för att ge dig den bästa upplevelsen.</p>
-    </div>
+    <about>
+        <description>Brasa & Bord är en modern bistro med fokus på nordiska råvaror och klassiska smaker med en modern twist. Restaurangen ligger i en charmig stadsdel, gärna nära vatten eller i en historisk byggnad med rustik inredning. Atmosfären är varm och inbjudande med en mix av industriella och trädetaljer, mjuk belysning och öppet kök för en levande matupplevelse. Vår personal är proffsig men avslappnad och har stor kunskap om både mat och vin, vilket bidrar till den genomtänkta helhetsupplevelsen. Oavsett om du kommer för en affärslunch, en middag med vänner eller en romantisk kväll, är vi här för att ge dig den bästa upplevelsen.</description>
+    </about>
 
-    <div id="menu" class="content">
-        <h2>Meny</h2>
-        <h3>Förrätter</h3>
-        <p><strong>Rödbetscarpaccio – 125 kr</strong><br>Sauvignon Blanc, Cloudy Bay – 115 kr (glas) / 650 kr (flaska)</p>
-        <p><strong>Salmalax & Pilgrimsmussla Sashimi – 140 kr</strong><br>Chardonnay, Chablis Premier Cru – 130 kr (glas) / 800 kr (flaska)</p>
-        <p><strong>Toast Skagen – 135 kr</strong><br>Riesling, Dr. Loosen – 110 kr (glas) / 550 kr (flaska)</p>
+    <menu>
+        <section name="Förrätter">
+            <dish>
+                <name>Rödbetscarpaccio</name>
+                <price>125 kr</price>
+                <recommended_wine>
+                    <name>Sauvignon Blanc, Cloudy Bay</name>
+                    <glass_price>115 kr</glass_price>
+                </recommended_wine>
+            </dish>
+            <dish>
+                <name>Salmalax & Pilgrimsmussla Sashimi</name>
+                <price>140 kr</price>
+                <recommended_wine>
+                    <name>Chardonnay, Chablis Premier Cru</name>
+                    <glass_price>130 kr</glass_price>
+                </recommended_wine>
+            </dish>
+            <dish>
+                <name>Toast Skagen</name>
+                <price>135 kr</price>
+                <recommended_wine>
+                    <name>Riesling, Dr. Loosen</name>
+                    <glass_price>110 kr</glass_price>
+                </recommended_wine>
+            </dish>
+        </section>
 
-        <h3>Varmrätter</h3>
-        <p><strong>Grillad Entrecôte (200g) – 275 kr</strong><br>Amarone della Valpolicella, Zenato – 150 kr (glas) / 950 kr (flaska)</p>
-        <p><strong>Högrevsburgare (160g) – 195 kr</strong><br>Zinfandel, Seghesio Sonoma – 120 kr (glas) / 680 kr (flaska)</p>
-        <p><strong>Halloumiburgare – 185 kr</strong><br>Grenache, Domaine Lafage – 115 kr (glas) / 630 kr (flaska)</p>
-        <p><strong>Vegansk Risotto – 195 kr</strong><br>Verdejo, José Pariente – 110 kr (glas) / 550 kr (flaska)</p>
-        <p><strong>Oxfilépasta – 235 kr</strong><br>Barbera d’Asti, Michele Chiarlo – 125 kr (glas) / 720 kr (flaska)</p>
+        <section name="Varmrätter">
+            <dish>
+                <name>Grillad Entrecôte (200g)</name>
+                <price>275 kr</price>
+                <recommended_wine>
+                    <name>Amarone della Valpolicella, Zenato</name>
+                    <glass_price>150 kr</glass_price>
+                </recommended_wine>
+            </dish>
+            <dish>
+                <name>Torskrygg (170g)</name>
+                <price>255 kr</price>
+                <recommended_wine>
+                    <name>Albariño, Mar de Frades</name>
+                    <glass_price>125 kr</glass_price>
+                </recommended_wine>
+            </dish>
+            <dish>
+                <name>Högrevsburgare (160g)</name>
+                <price>195 kr</price>
+                <recommended_wine>
+                    <name>Zinfandel, Seghesio Sonoma</name>
+                    <glass_price>120 kr</glass_price>
+                </recommended_wine>
+            </dish>
+            <dish>
+                <name>Halloumiburgare</name>
+                <price>185 kr</price>
+                <recommended_wine>
+                    <name>Grenache, Domaine Lafage</name>
+                    <glass_price>115 kr</glass_price>
+                </recommended_wine>
+            </dish>
+            <dish>
+                <name>Vegansk Risotto</name>
+                <price>195 kr</price>
+                <recommended_wine>
+                    <name>Verdejo, José Pariente</name>
+                    <glass_price>110 kr</glass_price>
+                </recommended_wine>
+            </dish>
+            <dish>
+                <name>Oxfilépasta</name>
+                <price>235 kr</price>
+                <recommended_wine>
+                    <name>Barbera d’Asti, Michele Chiarlo</name>
+                    <glass_price>125 kr</glass_price>
+                </recommended_wine>
+            </dish>
+        </section>
 
-        <h3>Efterrätter</h3>
-        <p><strong>Crème Brûlée – 115 kr</strong><br>Sauternes, Château d’Yquem – 140 kr (glas) / 1800 kr (flaska)</p>
-        <p><strong>Chokladfondant – 125 kr</strong><br>Portvin, Graham’s 10 Year Tawny – 130 kr (glas) / 1400 kr (flaska)</p>
-        <p><strong>Ostbricka – 145 kr</strong><br>Vin Jaune, Domaine Berthet-Bondet – 135 kr (glas) / 1600 kr (flaska)</p>
+        <section name="Efterrätter">
+            <dish>
+                <name>Crème Brûlée</name>
+                <price>115 kr</price>
+                <recommended_wine>
+                    <name>Sauternes, Château d’Yquem</name>
+                    <glass_price>140 kr</glass_price>
+                </recommended_wine>
+            </dish>
+            <dish>
+                <name>Chokladfondant</name>
+                <price>125 kr</price>
+                <recommended_wine>
+                    <name>Portvin, Graham’s 10 Year Tawny</name>
+                    <glass_price>130 kr</glass_price>
+                </recommended_wine>
+            </dish>
+            <dish>
+                <name>Ostbricka</name>
+                <price>145 kr</price>
+                <recommended_wine>
+                    <name>Vin Jaune, Domaine Berthet-Bondet</name>
+                    <glass_price>135 kr</glass_price>
+                </recommended_wine>
+            </dish>
+        </section>
+    </menu>
 
-        <h3>Drycker</h3>
-        <p><strong>Viner</strong></p>
-        <p>Sauvignon Blanc, Cloudy Bay – 115 kr (glas) / 650 kr (flaska)</p>
-        <p>Amarone della Valpolicella, Zenato – 150 kr (glas) / 950 kr (flaska)</p>
-        <p><strong>Öl</strong></p>
-        <p>IPA – 89 kr</p>
-        <p>Lager – 89 kr</p>
-    </div>
+    <drinks>
+        <section name="Viner">
+            <wine>
+                <name>Sauvignon Blanc, Cloudy Bay</name>
+                <bottle_price>650 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Chardonnay, Chablis Premier Cru</name>
+                <bottle_price>800 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Riesling, Dr. Loosen</name>
+                <bottle_price>550 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Amarone della Valpolicella, Zenato</name>
+                <bottle_price>950 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Albariño, Mar de Frades</name>
+                <bottle_price>750 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Zinfandel, Seghesio Sonoma</name>
+                <bottle_price>680 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Grenache, Domaine Lafage</name>
+                <bottle_price>630 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Verdejo, José Pariente</name>
+                <bottle_price>550 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Barbera d’Asti, Michele Chiarlo</name>
+                <bottle_price>720 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Sauternes, Château d’Yquem</name>
+                <bottle_price>1800 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Portvin, Graham’s 10 Year Tawny</name>
+                <bottle_price>1400 kr</bottle_price>
+            </wine>
+            <wine>
+                <name>Vin Jaune, Domaine Berthet-Bondet</name>
+                <bottle_price>1600 kr</bottle_price>
+            </wine>
+        </section>
 
-    <script>
-        function showContent(id) {
-            document.querySelectorAll('.content').forEach(div => div.style.display = 'none');
-            document.getElementById(id).style.display = 'block';
-        }
-    </script>
-</body>
-</html>
+        <section name="Öl">
+            <beer>
+                <name>IPA</name>
+                <price>89 kr</price>
+            </beer>
+            <beer>
+                <name>Lager</name>
+                <price>89 kr</price>
+            </beer>
+        </section>
+    </drinks>
+</restaurant>
